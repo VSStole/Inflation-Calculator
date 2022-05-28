@@ -15,8 +15,6 @@ function inflationCalculator() {
     worth += worth * (inflationRate / 100);
   }
 
-  //worth= worth.toFixed(2);
-
   let newElement = document.createElement('div');
   newElement.className = 'new-value';
   newElement.style.background = "yellow";
@@ -24,16 +22,5 @@ function inflationCalculator() {
   document.querySelector('.container').appendChild(newElement);
 
 }
-   //console.log(years);
-
-   //console.log(typeof(inflationRate,money));
-  //console.log(typeof(money));
-  //let calc=inflationRate+money;
-
-
-
-   //let calc= inflationRate.value + money.value;
-  //  console.log(typeof(inflationRate.value));
-  //  console.log(typeof(money.value));
-   //console.log(calc);
+   
 
