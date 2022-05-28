@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(117, 214, 243);
+
+
+}
+
+.background_image {
+  background-image: url(money.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 850px;
+  height: 500px;
+  left: 15rem;
+}
+
+button {
+
+  position: relative;
+  left: 25rem;
+  top: 13rem;
+  height: 30px;
+  width: 90px;
+  background: radial-gradient(circle, rgb(171, 234, 126) 3%, rgb(231, 217, 61) 100%);
+  color: white;
+  border-radius: 30px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+
+.row {
+  position: relative;
+  left: 5rem;
+  top: 8rem;
+  height: 130px;
+  width: 40rem;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 17px;
+  color: rgb(73, 94, 31);
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  position: fixed;
+  margin-left: 20%;
+  margin-top: 10rem;
+  box-shadow: 3px 3px 3px 50px rgb(228, 230, 126);
+
+}
+
+h1 {
+  background-color: rgb(238, 240, 128);
+  color: rgb(73, 94, 31);
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  border: 1px solid rgb(227, 224, 227);
+  border-radius: 15px;
+  font-family: 'Oswald', sans-serif;
+
+
+}
+
+.rate {
+  padding: 8px;
+  text-align: center;
+  padding-right: 70px;
+
+}
+
+.calculate {
+  padding: 8px;
+  text-align: center;
+
+
+}
+
+.year {
+  padding: 8px;
+  text-align: center;
+  padding-left: 7px;
+}
